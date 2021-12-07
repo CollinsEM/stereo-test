@@ -1,0 +1,51 @@
+body {
+		color: #cccccc;
+		font-family:Monospace;
+		font-size:13px;
+		text-align:center;
+
+		background-color: #050505;
+		margin: 0px;
+		overflow: hidden;
+}
+
+#info {
+		position: absolute;
+		top: 0px; width: 100%;
+		padding: 5px;
+}
+
+.viewport {
+    width: 50%;
+    height: 50%;
+    position: absolute;
+}
+
+#scene-view {
+    top: 0;
+    left: 0;
+    background-color: #FFFF00;
+}
+
+#cortex-view {
+    top: 0;
+    right: 0;
+    background-color: #FF0000;
+}
+
+#left-view {
+    bottom: 0;
+    left: 0;
+    background-color: #00FFFF;
+}
+
+#right-view {
+    bottom: 0;
+    right: 0;
+    background-color: #0000FF;
+}
+
+a {
+		color: #0080ff;
+}
+
